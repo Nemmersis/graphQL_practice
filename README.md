@@ -41,7 +41,15 @@ The GraphQL endpoint will be available at `http://localhost:4000/graphql` (or th
 ## Example Query
 ```
 query {
-  // Your query here
+  query GamesQuery( $gameId: ID!) {
+    game(id: $gameId) {
+      title,
+      reviews {
+        rating,
+        content
+      }
+    }
+  }
 }
 ```
 
