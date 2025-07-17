@@ -14,7 +14,7 @@ let authors = [
 ]
 
 let reviews = [
-  {id: '1', rating: 10, content: 'I LOVE Village!', author_id: '1', game_id: '1'},
+  {id:'1', rating: 10, content: 'I LOVE Village!', author_id: '1', game_id: '1'},
   {id:'2', rating: 9, content: 'One of my favourite games', author_id: '2', game_id:'3'},
   {id:'3', rating: 6, content: 'Great start. Can\'t wait for the updates', author_id: '3', game_id: '4'},
   {id:'4', rating: 5, content: 'Repetetive, frustrating, Nem dies a lot, lol', author_id: '4', game_id: '5'},
